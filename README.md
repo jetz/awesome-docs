@@ -15,3 +15,6 @@
     * English: [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
 	* Chinese: [https://github.com/sivan/javascript-style-guide](https://github.com/sivan/javascript-style-guide) (ES5)
 	* Chinese: [https://github.com/yuche/javascript](https://github.com/yuche/javascript) (ES6)
+- **http2-spec**
+    * English: [https://github.com/http2/http2-spec](https://github.com/http2/http2-spec)
+    * Chinese: [https://github.com/fex-team/http2-spec](https://github.com/fex-team/http2-spec)
