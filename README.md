@@ -18,3 +18,5 @@
 - **http2-spec**
     * English: [https://github.com/http2/http2-spec](https://github.com/http2/http2-spec)
     * Chinese: [https://github.com/fex-team/http2-spec](https://github.com/fex-team/http2-spec)
+- **api-guidelines**
+	* English: [https://github.com/Microsoft/api-guidelines](https://github.com/Microsoft/api-guidelines)
