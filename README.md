@@ -9,3 +9,4 @@
 |**javascript-style-guide**|[airbnb/javascript](https://github.com/airbnb/javascript)|[sivan/javascript-style-guide](https://github.com/sivan/javascript-style-guide) (ES5) <br/> [yuche/javascript](https://github.com/yuche/javascript) (ES6)|
 |**http2-spec**|[http2/http2-spec](https://github.com/http2/http2-spec)|[fex-team/http2-spec](https://github.com/fex-team/http2-spec)|
 |**api-guidelines**|[Microsoft/api-guidelines](https://github.com/Microsoft/api-guidelines)|－|
+|**security-guide-for-developers**|[FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers)|[FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers)|
