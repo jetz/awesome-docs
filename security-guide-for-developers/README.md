@@ -13,7 +13,7 @@
 
 ### 目录  
 
-1. [安全Checklist](security-checklist-zh.md)  
+1. [安全Checklist](security-checklist.md)  
 2. 什么东西会出问题?  
 3. 安全地传输数据: HTTPS 详解  
 4. 权限验证: 我是谁？  
@@ -66,7 +66,7 @@
 13.2 跨站请求伪造    
 13.3 拒绝服务    
 13.4 服务端请求伪造  
-14. [互联网公司漏洞统计](vulnerabilities-stats-zh.md)   
+14. [互联网公司漏洞统计](vulnerabilities-stats.md)   
 15. 重造轮子，但做出来是方的    
 15.1 Python 的安全库和包    
 15.2 NodeJS 的安全库和包  
