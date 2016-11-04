@@ -10,3 +10,4 @@
 |**http2-spec**|[http2/http2-spec](https://github.com/http2/http2-spec)|[fex-team/http2-spec](https://github.com/fex-team/http2-spec)|
 |**api-guidelines**|[Microsoft/api-guidelines](https://github.com/Microsoft/api-guidelines)|－|
 |**security-guide-for-developers**|[FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers)|[FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers)|
+|**raft**|[*website*](https://ramcloud.atlassian.net/wiki/download/attachments/6586375/raft.pdf)|[maemual/faft](https://github.com/maemual/raft-zh_cn)|
