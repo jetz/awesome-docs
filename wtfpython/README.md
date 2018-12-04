@@ -1,4 +1,4 @@
-<p align="center"><img src="/images/logo.png" alt=""></p>
+<p align="center"><img src="/wtfpython/images/logo.png" alt=""></p>
 <h1 align="center">What the f*ck Python! 🐍</h1>
 <p align="center">An interesting collection of surprising snippets and lesser-known Python features.</p>
 
@@ -201,7 +201,7 @@ Makes sense, right?
   * All length 0 and length 1 strings are interned.
   * Strings are interned at compile time (`'wtf'` will be interned but `''.join(['w', 't', 'f']` will not be interned)
   * Strings that are not composed of ASCII letters, digits or underscores, are not interned. This explains why `'wtf!'` was not interned due to `!`. Cpython implementation of this rule can be found [here](https://github.com/python/cpython/blob/3.6/Objects/codeobject.c#L19)
-  <img src="/images/string-intern/string_intern.png" alt="">
+  <img src="/wtfpython/images/string-intern/string_intern.png" alt="">
 + When `a` and `b` are set to `"wtf!"` in the same line, the Python interpreter creates a new object, then references the second variable at the same time. If you do it on separate lines, it doesn't "know" that there's already `wtf!` as an object (because `"wtf!"` is not implicitly interned as per the facts mentioned above). It's a compiler optimization and specifically applies to the interactive environment.
 + Constant folding is a technique for [peephole optimization](https://en.wikipedia.org/wiki/Peephole_optimization) in Python. This means the expression `'a'*20` is replaced by `'aaaaaaaaaaaaaaaaaaaa'` during compilation to reduce few clock cycles during runtime. Constant folding only occurs for strings having length less than 20. (Why? Imagine the size of `.pyc` file generated as a result of the expression `'a'*10**10`). [Here's](https://github.com/python/cpython/blob/3.6/Python/peephole.c#L288) the implementation source for the same.
 
@@ -529,11 +529,11 @@ We didn't assign 3 "X"s or did we?
 
 When we initialize `row` variable, this visualization explains what happens in the memory
 
-![image](/images/tic-tac-toe/after_row_initialized.png)
+![image](/wtfpython/images/tic-tac-toe/after_row_initialized.png)
 
 And when the `board` is initialized by multiplying the `row`, this is what happens inside the memory (each of the elements `board[0]`, `board[1]` and `board[2]` is a reference to the same list referred by `row`)
 
-![image](/images/tic-tac-toe/after_board_initialized.png)
+![image](/wtfpython/images/tic-tac-toe/after_board_initialized.png)
 
 We can avoid this scenario here by not using `row` variable to generate `board`. (Asked in [this](https://github.com/satwikkansal/wtfpython/issues/68) issue).
 

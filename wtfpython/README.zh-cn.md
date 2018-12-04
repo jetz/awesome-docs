@@ -1,4 +1,4 @@
-<p align="center"><img src="/images/logo.png" alt=""></p>
+<p align="center"><img src="/wtfpython/images/logo.png" alt=""></p>
 <h1 align="center">What the f*ck Python! 🐍</h1>
 <p align="center">一些有趣且鲜为人知的 Python 特性.</p>
 
@@ -201,7 +201,7 @@ False
   - 字符串在编译时被实现 (`'wtf'` 将被驻留, 但是 `''.join(['w', 't', 'f']` 将不会被驻留)
   - 字符串中只包含字母，数字或下划线时将会驻留. 所以 `'wtf!'` 由于包含 `!` 而未被驻留. 可以在[这里](https://github.com/python/cpython/blob/3.6/Objects/codeobject.c#L19)找到 CPython 对此规则的实现.
 
-    <img src="/images/string-intern/string_intern.png" alt="">
+    <img src="/wtfpython/images/string-intern/string_intern.png" alt="">
 
 - 当在同一行将 `a` 和 `b` 的值设置为 `"wtf!"` 的时候, Python 解释器会创建一个新对象, 然后同时引用第二个变量. 如果你在不同的行上进行赋值操作, 它就不会“知道”已经有一个 `wtf！` 对象 (因为 `"wtf!"` 不是按照上面提到的方式被隐式驻留的). 它是一种编译器优化, 特别适用于交互式环境.
 - 常量折叠(constant folding) 是 Python 中的一种 [窥孔优化(peephole optimization)](https://en.wikipedia.org/wiki/Peephole_optimization) 技术. 这意味着在编译时表达式 `'a'*20` 会被替换为 `'aaaaaaaaaaaaaaaaaaaa'` 以减少运行时的时钟周期. 只有长度小于 20 的字符串才会发生常量折叠. (为啥? 想象一下由于表达式 `'a'*10**10` 而生成的 `.pyc` 文件的大小). 相关的源码实现在[这里](https://github.com/python/cpython/blob/3.6/Python/peephole.c#L288).
@@ -532,11 +532,11 @@ board = [row]*3
 
 当我们初始化 `row` 变量时, 下面这张图展示了内存中的情况。
 
-![image](/images/tic-tac-toe/after_row_initialized.png)
+![image](/wtfpython/images/tic-tac-toe/after_row_initialized.png)
 
 而当通过对 `row` 做乘法来初始化 `board` 时, 内存中的情况则如下图所示 (每个元素 `board[0]`, `board[1]` 和 `board[2]` 都和 `row` 一样引用了同一列表.)
 
-![image](/images/tic-tac-toe/after_board_initialized.png)
+![image](/wtfpython/images/tic-tac-toe/after_board_initialized.png)
 
 我们可以通过不使用变量 `row` 生成 `board` 来避免这种情况. ([这个](https://github.com/satwikkansal/wtfpython/issues/68)issue提出了这个需求.)
 
