@@ -13,3 +13,4 @@
 **raft**|[*website*](https://ramcloud.atlassian.net/wiki/download/attachments/6586375/raft.pdf)|[maemual/faft](https://github.com/maemual/raft-zh_cn)
 **pure-bash-bible**|[dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible)|-
 **wtfpython**|[satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython)|[leisurelicht/wtfpython-cn](https://github.com/leisurelicht/wtfpython-cn)
+**coding-interview-university**|[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)|[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
