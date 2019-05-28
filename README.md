@@ -14,3 +14,4 @@
 **pure-bash-bible**|[dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible)|-
 **wtfpython**|[satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython)|[leisurelicht/wtfpython-cn](https://github.com/leisurelicht/wtfpython-cn)
 **coding-interview-university**|[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)|[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
+**the-art-of-command-line**|[jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)|[jlevy/the-art-of-command-line](jlevy/the-art-of-command-line)
